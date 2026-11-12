@@ -30,4 +30,4 @@ if not identificacion.strip().isdigit():
         return self.__correo
 
     def describir(self):
-        return f'Cliente {self.__nombre} (ID {self.__identificacion})' 
+        return f'Cliente {self.__nombre} (ID {self.__identificacion})'
