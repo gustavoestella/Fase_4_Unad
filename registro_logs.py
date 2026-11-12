@@ -7,4 +7,4 @@ logger.setLevel(logging.INFO)
 if not logger.handlers:
     handler = logging.FileHandler(Path(__file__).with_name('sistema.log'), encoding='utf-8')
     handler.setFormatter(logging.Formatter('%(asctime)s | %(levelname)s | %(message)s'))
-    logger.addHandler(handler)
+    logger.addHandler(handler) 
