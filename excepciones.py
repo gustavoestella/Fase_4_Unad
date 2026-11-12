@@ -4,4 +4,4 @@ class ErrorSistema(Exception):
 class DatoInvalido(ErrorSistema): pass
 class ServicioNoDisponible(ErrorSistema): pass
 class ReservaInvalida(ErrorSistema): pass
-class OperacionNoPermitida(ErrorSistema): pass
+class OperacionNoPermitida(ErrorSistema): pass 
